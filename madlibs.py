@@ -28,7 +28,7 @@ print "ok, are you ready for your story?"
 
 STORY = "This morning %s woke up feeling %s. 'It is going to be a %s day!' Outside, a bunch of %ss were protesting to keep %s in stores. They began to %s to the rhythm of the %s, which made all the %ss very %s. Concerned, %s texted %s, who flew %s to %s and dropped %s in a puddle of frozen %s. %s woke up in the year %s, in a world where %ss ruled the world."
 
-print STORY % name, a1, a2, animal, food, v1, n1, fruit, a3, name, superhero, name, country, name, dessert, name, year, s2
+print STORY % (name, a1, a2, animal, food, v1, n1, fruit, a3, name, superhero, name, country, name, dessert, name, year, s2)
 
 
 
